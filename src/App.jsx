@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import MovieCard from './MovieCard';
 
 import './App.css'
-import SearchIcon from "./search.svg";
+import SearchIcon from "./assets/search.svg";
 
 //a1d6f4af
 
@@ -21,7 +21,7 @@ function App() {
   }
 
   useEffect(() => {
-    searchMovies('Spiderman')
+    searchMovies('spider')
   }, []);
 
   return (
